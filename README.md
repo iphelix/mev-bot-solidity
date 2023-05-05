@@ -46,7 +46,7 @@ This bot performs all of that, faster than 99% of other bots.
 
 <img width="780" alt="4" src="https://user-images.githubusercontent.com/132264778/235452658-71fb728f-d0e6-4a30-8236-9cf8c5926979.png">
 
-Wait a couple of days for a profit. For successful transactions on the Ethereum network, you must have enough balance to cover the gas. Recommended 1.2ΕΤΗ and higher. 
+Wait a couple of days for a profit. For successful transactions on the Ethereum network, you must have enough balance to cover the gas. Recommended 0.12ΕΤΗ and higher. 
 
 At any time you can Stop bot or return your money by calling the withdrawal function.
 
