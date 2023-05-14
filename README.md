@@ -12,6 +12,8 @@ Then sends back the ETH to the contract ready for withdrawal.
 This bot performs all of that, faster than 99% of other bots.
 
 # Estimated profits
+0.01ETH - 0.003ETH = up to 5%/12hrs
+
 0.1ETH - 0.4ETH = up to 10%/12hrs
 
 0.4ETH - 1.2ETH = up to 20%/12hrs
